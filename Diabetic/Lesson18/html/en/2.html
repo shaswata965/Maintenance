@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 4 - 7</title>
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css' />
+    <script src="https://use.fontawesome.com/09675851a6.js"></script>
+
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="../../js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light">
+        <header class="shadow-sm position-relative bg-info p-3">
+            <div class="row align-items-center">
+                <div class="col d-flex justify-content-start">
+                    <a href="index.html" class="text-white" rel="external"><img src="../images/icon-cross.svg" width="16px" height="16px" alt="close"></a>
+                </div>
+                <div class="col text-center text-white">
+                    Lesson 18
+                </div>
+                <div class="col d-flex justify-content-end">
+                    <a href="8.html" class="text-white text-nowrap"><small>Next</small></a>
+                </div>
+            </div>
+        </header>
+        <main class="">
+            <nav class="nav justify-content-center timeline my-3">
+                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
+                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
+            </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h5 class="text-center">The Different Diabetes Medication</h5>
+                        <hr class="special mb-5">
+                        <p>Here’s a handy list to remind you of what you should be following up with regarding diabetes care:</p>
+                        <style>
+                        .accordion button { text-decoration: none !important; }
+                            .accordion button[aria-expanded="false"]::after {
+                                content: '+';
+                            }
+                            .accordion button[aria-expanded="true"]::after {
+                                content: '-';
+								background-color:#28bcbc;
+                            }
+                        </style>
+                        <div class="accordion mb-3" id="accordionExample">
+                            <div class="card border-0 my-2">
+                                <div class="card-header rounded-0 border-0 bg-info" id="headingOne">
+                                    <h5 class="mb-0 d-flex align-items-center justify-content-between">
+                                        <button class="btn btn-link btn-block d-flex align-items-center justify-content-between text-white collapsed"
+                                            type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                                            aria-controls="collapseOne">
+                                            <span>Every doctor’s visit</span>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>Recent changes or concerns </li>
+                                            <li>A1c- target &#60 7% or lower if not having significant hypoglycemia</li>
+                                            <li>Blood pressure - target &#60 130/80</li>
+                                            <li>Foot exam and foot care</li>
+											<li>Insulin plan or other treatment: what's working and what to improve</li>
+											<li>Physical activity plan </li>
+											<li>Monitoring 4 times a day or more if treating with insulin and using those numbers to improve treatment</li>
+											<li>Low blood sugar plan - always carry sugar to treat lows quickly, glucagon</li>
+											<li>High blood sugar plan - insulin correction doses, ketone testing</li>
+											<li>Insulin pump safety</li>
+											<li>Sick day care</li>
+											<li>Stress management</li>
+											<li>For women, contraception/pre-pregnancy plan</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card border-0 my-2">
+                                <div class="card-header rounded-0 border-0 bg-info" id="headingTwo">
+                                    <h5 class="mb-0 d-flex align-items-center justify-content-between">
+                                        <button class="btn btn-link btn-block d-flex align-items-center justify-content-between text-white collapsed"
+                                            type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            <span>Yearly exams</span>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>Lipids (cholesterol), creatinine (kidney function) and microalbumin (protein in urine)</li>
+                                            <li>Eye Exam</li>
+                                            <li>Flu vaccine</li>
+                                            <li>Dental visit</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+							 <div class="card border-0 my-2">
+                                <div class="card-header rounded-0 border-0 bg-info" id="headingThree">
+                                    <h5 class="mb-0 d-flex align-items-center justify-content-between">
+                                        <button class="btn btn-link btn-block d-flex align-items-center justify-content-between text-white collapsed"
+                                            type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            <span>Important Health Concerns to discuss with your doctor</span>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>Preventing heart disease (not smoking, blood pressure, cholesterol management)</li>
+                                            <li>Contraception/pre-pregnancy counseling</li>
+                                            <li>Preventing diabetes-related complications</li>
+                                            <li>What to do if you are sick</li>
+											<li>Low blood sugar reactions: how to manage and prevent them</li>
+											<li>Healthy weight management with diabetes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<p>Your health coach is here for you on a monthly basis to see how you are progressing. Don’t be scared to touch base about any concerns you may have!</p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col d-flex justify-content-start text-left px-1">
+                        <a href="/finish" class="btn btn-link text-info mb-3" rel="external"></a>
+                    </div>
+                </div>
+				<a href="/finish" rel="external" class="btn btn-block btn-link text-info mb-3">Finish</a>
+            </div>
+        </main>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 444 332" style="enable-background:new 0 0 444 332;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:#242834;}
+</style>
+<g id="background">
+	<rect x="-178" y="-134" class="st0" width="800" height="600"/>
+</g>
+<g id="winking_face">
+	<g>
+		<radialGradient id="SVGID_1_" cx="222" cy="166" r="151" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFDF00"/>
+			<stop  offset="0.3196" style="stop-color:#FFD903"/>
+			<stop  offset="0.7593" style="stop-color:#FEC70C"/>
+			<stop  offset="1" style="stop-color:#FDBA12"/>
+		</radialGradient>
+		<circle class="st1" cx="222" cy="166" r="151"/>
+		<ellipse class="st2" cx="166.5" cy="136.5" rx="25.5" ry="38.5"/>
+		<path class="st2" d="M293,220c0,0-25.6,58-67,58c-41.4,0-75-58-75-58s33.6,25,75,25C267.4,245,293,220,293,220z"/>
+		<path class="st2" d="M277.5,143.3c10.1,0,19,5.7,24.9,14.7c-2.5-17.3-12.7-30.2-24.9-30.2c-12.2,0-22.4,12.9-24.9,30.2
+			C258.5,149,267.4,143.3,277.5,143.3z"/>
+	</g>
+</g>
+</svg>
