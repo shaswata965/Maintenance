@@ -218,54 +218,55 @@
 @media  only screen and (max-width: 392px) and (min-width: 360px) {
     .page-indicator{
         display: inline-block;
-        width: 20px;
-        height: 7px;
+        width: 48px;
+        height: 8px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1.4px 5px 1.4px;
+        margin: 0 4.5px 4px 4.5px;
     }
 }
 
 @media  only screen and (max-width: 412px) and (min-width: 393px) {
     .page-indicator{
         display: inline-block;
-        width: 22.5px;
-        height: 7px;
+        width: 52px;
+        height: 8px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1.6px 5px 1.6px;
+        margin: 0 6px 4px 6px;
     }
 }
 
 @media  only screen and (max-width: 445px) and (min-width: 413px) {
     .page-indicator{
         display: inline-block;
-        width: 24px;
+        width: 54px;
         height: 8px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 1.8px 4px 1.8px;
+        margin: 0 7px 4px 7px;
     }
 }
 
 @media  only screen and (max-width: 460px) and (min-width: 446px) {
     .page-indicator{
         display: inline-block;
-        width: 26.5px;
+        width: 58px;
         height: 8px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 2px 4px 2px;
+        margin: 0 8.5px 4px 8.5px;
     }
 }
 
 @media  only screen and (max-width: 480px) and (min-width: 461px) {
     .page-indicator{
         display: inline-block;
-        width: 28px;
+        width: 60px;
         height: 8px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 2.2px 4px 2.2px;
+        margin: 0 9px 4px 9px;
     }
 }
+
