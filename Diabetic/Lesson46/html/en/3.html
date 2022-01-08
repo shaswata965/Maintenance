@@ -1,76 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>What is Diabetes?</title>
-        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css'/>
-        <script src="https://use.fontawesome.com/09675851a6.js"></script>
-        <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <script src="../../js/index.js"></script>
-
-        <link rel="stylesheet" href="../../css/style.css">
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diabetic Lesson 46</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/88b2b303d8.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/space.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
     <body class="bg-light">
             <div class="swipeable last">
-        <header class="shadow-sm position-relative bg-info p-3">
-            <div class="row align-items-center">
-                <div class="col d-flex justify-content-start">
-                    <a href="index.html" class="text-white" rel="external"><img src="../images/icon-cross.svg" width="16px" height="16px" alt="close"></a>
-                </div>
-                <div class="col text-center text-white">
-                    Lesson 46
-                </div>
-                <div class="col d-flex justify-content-end px-1">
-                    <!-- <a href="7.html" class="text-white text-nowrap"><small>Next</small></a> -->
-                </div>
-            </div>
-        </header>
+                <header class="position-relative p-3">
+                    <div class="row align-items-center">
+                        <div class="col-12 text-center starter-page-header">
+                            <img src="../images/lessons.PNG" alt="lessons icon" class="img-fluid lessons-icon" />&nbsp;&nbsp;&nbsp;<strong>Lesson 46</strong>
+                        </div>
+                    </div>
+                </header>
         <main class="">
-            <nav class="nav justify-content-center timeline my-3">
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
-                <a href="#" class="nav-link active"><i class="fa fa-circle"></i></a>
+            <nav class="my-2">
+                <div class="row justify-content-between navigation-header">
+                    <div class="col-1">
+                        <div class="col-12 d-flex">
+                            <a href="index.html" class="close-button-top" role="button"><i class="fas fa-times-circle"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-10 text-center indicator-set">
+                        <a class="page-indicator page-indicator-active first-component-indicator"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                        <a class="page-indicator page-indicator-active"></a>
+                    </div>
+                    <div class="col-1 navigation-page-count">
+                        <p>3/3</p>
+                    </div>
+                </div>
             </nav>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col">
-                        <h5 class="text-center">10 SMART goals</h5>
-                        <hr class="special mb-5">
-						<p>Check out these SMART goals for different problems to get inspired about what kind of goals you want to set.</p>
-						<ol>
-							<li><strong>Skipping breakfast? Try this:</strong>
-							<p>Every day this week, I will eat breakfast selecting one of the following choices: 2 boiled eggs + 1 whole-wheat toast + vegetables, 1 cup low-fat yogurt + ½ cup berries + ½ cup oats.</p></li>
-							<li><strong>Not having enough fiber? Try this:</strong>
-							<p>I will have brown rice or whole wheat pasta instead of white rice or white pasta twice this week.</p></li>
-							<li><strong>Not having enough vegetables? Try this:</strong>
-							<p>I will fill half of my dinner plate with colorful non-starchy vegetables at least 5 times this week.</p></li>
-							<li><strong>Trying to eat more home food? Try this:</strong>
-							<p>I will make a meal plan for the next week and plan the grocery list on Friday morning.</p></li>
-							<li><strong>Trying to eat less processed snacks? Try this:</strong>
-							<p>I will include at least one vegetable at every snack I have this week.</p></li>
-							<li><strong>Trying to watch your portions? Try this:</strong>
-							<p>For lunch and dinner, I will serve food on my plate directly and keep serving bowls out of sight to avoid second servings every day this week.</p></li>
-							<li><strong>Trying to cut down on salt? Try this:</strong>
-							<p>I will use herbs and spices to replace at least half of the amount of salt, I regularly use every time I cook this week.</p></li>
-							<li><strong>Trying to cut down on unhealthy fats? Try this:</strong>
-							<p>I will use olive oil instead of butter every time I cook this week.</p></li>
-							<li><strong>Trying to have healthier drinks? Try this:</strong>
-							<p>I will replace the cream or sweetened condensed milk in my coffee/tea with skim or low-fat milk every day this week.</p></li>
-							<li><strong>Trying to cut down on sweets? Try this:</strong>
-							<p>I will have a piece fruit after dinner every day this week for dessert.</p></li>
-						</ol>
+                        <div class="card shadow border-0 mb-3">
+                            <div class="card-body">
+                        <h5 class="card-title">10 SMART goals</h5>
+						<p class="card-text mb-4 mt-3 card-text-opacity">Check out these SMART goals for different problems to get inspired about what kind of goals you want to set.</p>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer mt-1">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Skipping breakfast? Try this:</strong></p>
+                                        <small class="text-muted">Every day this week, I will eat breakfast selecting one of the following choices: 2 boiled eggs + 1 whole-wheat toast + vegetables, 1 cup low-fat yogurt + ½ cup berries + ½ cup oats.</small>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Not having enough fiber? Try this:</strong></p>
+                                        <small class="text-muted">I will have brown rice or whole wheat pasta instead of white rice or white pasta twice this week.</small>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Not having enough vegetables? Try this:</strong></p>
+                                        <small class="text-muted">I will fill half of my dinner plate with colorful non-starchy vegetables at least 5 times this week.</small>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Trying to eat more home food? Try this:</strong></p>
+                                        <small class="text-muted">I will make a meal plan for the next week and plan the grocery list on Friday morning.</small>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Trying to eat less processed snacks? Try this:</strong></p>
+                                        <small class="text-muted">I will include at least one vegetable at every snack I have this week.</small>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Trying to watch your portions? Try this:</strong></p>
+                                        <small class="text-muted">For lunch and dinner, I will serve food on my plate directly and keep serving bowls out of sight to avoid second servings every day this week.</small>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Trying to cut down on salt? Try this:</strong></p>
+                                        <small class="text-muted">I will use herbs and spices to replace at least half of the amount of salt, I regularly use every time I cook this week.</small>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Trying to cut down on unhealthy fats? Try this:</strong></p>
+                                        <small class="text-muted">I will use olive oil instead of butter every time I cook this week.</small>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Trying to have healthier drinks? Try this:</strong></p>
+                                        <small class="text-muted">I will replace the cream or sweetened condensed milk in my coffee/tea with skim or low-fat milk every day this week.</small>
+                                    </div>
+                                </div>
+                                <div class="row my-3">
+                                    <div class="col-2 right-arrow-pointer">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <div class="col pl-0">
+                                        <p class="m-0 font-weight-bold"><strong>Trying to cut down on sweets? Try this:</strong></p>
+                                        <small class="text-muted">I will have a piece fruit after dinner every day this week for dessert.</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-               <div class="row mt-3">
-                	<div class="col d-flex justify-content-start text-left px-1">
-               	     <a href="2.html" class="btn btn-link text-info mb-3" rel="external"></a>
-               		 </div>
-            </div>
-				<a href="/finish" rel="external" class="btn btn-block btn-link text-info mb-3">Finish</a>
+                <div class="row justify-content-around mt-3">
+                    <div class="col-5 text-left px-1">
+                        <a href="2.html" class="btn bottom-block-button mb-3" role="button">Back</a>
+                    </div>
+                    <div class="col-5 px-1">
+                        <a href="quiz.html" class="btn bottom-block-button mb-3" role="button">Take a Quiz</a>
+                    </div>
+                </div>
             </div>
         </main>
     </div>
