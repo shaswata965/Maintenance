@@ -218,54 +218,54 @@
 @media  only screen and (max-width: 392px) and (min-width: 360px) {
     .page-indicator{
         display: inline-block;
-        width: 26px;
+        width: 24px;
         height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 2.5px 5px 2.5px;
+        margin: 0 2px 5px 2px;
     }
 }
 
 @media  only screen and (max-width: 412px) and (min-width: 393px) {
     .page-indicator{
         display: inline-block;
-        width: 28.5px;
+        width: 27px;
         height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 3px 4px 3px;
+        margin: 0 2.2px 4px 2.2px;
     }
 }
 
 @media  only screen and (max-width: 445px) and (min-width: 413px) {
     .page-indicator{
         display: inline-block;
-        width: 30.5px;
+        width: 29px;
         height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 3.2px 4px 3.2px;
+        margin: 0 2.5px 4px 2.5px;
     }
 }
 
 @media  only screen and (max-width: 460px) and (min-width: 446px) {
     .page-indicator{
         display: inline-block;
-        width: 34px;
+        width: 33px;
         height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 3.5px 4px 3.5px;
+        margin: 0 2.8px 4px 2.8px;
     }
 }
 
 @media  only screen and (max-width: 480px) and (min-width: 461px) {
     .page-indicator{
         display: inline-block;
-        width: 35px;
+        width: 34px;
         height: 7px;
         border-radius: 5px;
         background-color: #d7d6d6;
-        margin: 0 3.6px 4px 3.6px;
+        margin: 0 3px 4px 3px;
     }
 }
